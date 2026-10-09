@@ -1,0 +1,37 @@
+Changed database context to 'Coding_Intensity'.
+yr specialty providers high_outliers_z_gt_2 low_outliers_z_lt_neg2 pct_high_outliers
+-- --------- --------- -------------------- ---------------------- -----------------
+2019 Nurse Practitioner 1357 0 0 .0
+2019 Family Practice 1121 0 61 .0
+2019 Physician Assistant 844 0 0 .0
+2019 Internal Medicine 743 0 39 .0
+2019 Orthopedic Surgery 316 21 0 6.6
+2019 Cardiology 311 0 19 .0
+2019 Podiatry 276 15 0 5.4
+2019 Dermatology 228 11 0 4.8
+2019 Neurology 216 0 18 .0
+2019 Gastroenterology 187 0 7 .0
+2019 Optometry 182 6 0 3.3
+2019 Nephrology 174 0 10 .0
+2019 Urology 173 0 2 .0
+2019 Hematology-Oncology 148 0 12 .0
+2019 Psychiatry 137 0 0 .0
+2024 Nurse Practitioner 1900 0 0 .0
+2024 Physician Assistant 1152 0 0 .0
+2024 Family Practice 1013 0 56 .0
+2024 Internal Medicine 701 0 38 .0
+2024 Orthopedic Surgery 332 15 0 4.5
+2024 Podiatry 301 21 0 7.0
+2024 Cardiology 296 0 16 .0
+2024 Optometry 264 8 0 3.0
+2024 Dermatology 234 13 0 5.6
+2024 Ophthalmology 206 0 0 .0
+2024 Neurology 188 0 12 .0
+2024 Hematology-Oncology 174 0 10 .0
+2024 Nephrology 173 0 8 .0
+2024 Gastroenterology 165 0 2 .0
+2024 Urology 162 0 8 .0
+yr providers_in_scope high_outliers low_outliers
+-- ------------------ ------------- ------------
+2019 7990 67 218
+2024 8766 71 212

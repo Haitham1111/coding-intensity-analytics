@@ -1,0 +1,148 @@
+Changed database context to 'Coding_Intensity'.
+== 1. TABLES AND COLUMNS (INFORMATION_SCHEMA) ==
+TABLE_NAME TABLE_TYPE pos COLUMN_NAME DATA_TYPE max_len
+---------- ---------- --- ----------- --------- -------
+dim_em_code BASE TABLE 1 hcpcs_cd varchar 10
+dim_em_code BASE TABLE 2 patient_type varchar 12
+dim_em_code BASE TABLE 3 em_level tinyint NULL
+dim_em_code BASE TABLE 4 is_high_level bit NULL
+fact_az_provider BASE TABLE 1 yr int NULL
+fact_az_provider BASE TABLE 2 provider_sk int NULL
+fact_az_provider BASE TABLE 3 state varchar 5
+fact_az_provider BASE TABLE 4 specialty varchar 100
+fact_az_provider BASE TABLE 5 hcpcs_cd varchar 10
+fact_az_provider BASE TABLE 6 pos varchar 2
+fact_az_provider BASE TABLE 7 benes int NULL
+fact_az_provider BASE TABLE 8 srvcs decimal NULL
+fact_az_provider BASE TABLE 9 avg_allowed decimal NULL
+fact_az_provider BASE TABLE 10 avg_payment decimal NULL
+fact_geo BASE TABLE 1 yr int NULL
+fact_geo BASE TABLE 2 geo_level varchar 20
+fact_geo BASE TABLE 3 geo_code varchar 10
+fact_geo BASE TABLE 4 geo_desc varchar 60
+fact_geo BASE TABLE 5 hcpcs_cd varchar 10
+fact_geo BASE TABLE 6 pos varchar 2
+fact_geo BASE TABLE 7 tot_providers bigint NULL
+fact_geo BASE TABLE 8 tot_benes bigint NULL
+fact_geo BASE TABLE 9 tot_srvcs decimal NULL
+fact_geo BASE TABLE 10 avg_allowed decimal NULL
+fact_geo BASE TABLE 11 avg_payment decimal NULL
+stg_az_provider BASE TABLE 1 provider_sk varchar 20
+stg_az_provider BASE TABLE 2 Rndrng_Prvdr_State_Abrvtn varchar 5
+stg_az_provider BASE TABLE 3 Rndrng_Prvdr_Type varchar 100
+stg_az_provider BASE TABLE 4 HCPCS_Cd varchar 10
+stg_az_provider BASE TABLE 5 Place_Of_Srvc varchar 2
+stg_az_provider BASE TABLE 6 Tot_Benes varchar 20
+stg_az_provider BASE TABLE 7 Tot_Srvcs varchar 20
+stg_az_provider BASE TABLE 8 Avg_Mdcr_Alowd_Amt varchar 30
+stg_az_provider BASE TABLE 9 Avg_Mdcr_Pymt_Amt varchar 30
+stg_az_provider BASE TABLE 10 src_year int NULL
+stg_geo BASE TABLE 1 Rndrng_Prvdr_Geo_Lvl varchar 20
+stg_geo BASE TABLE 2 Rndrng_Prvdr_Geo_Cd varchar 10
+stg_geo BASE TABLE 3 Rndrng_Prvdr_Geo_Desc varchar 60
+stg_geo BASE TABLE 4 HCPCS_Cd varchar 10
+stg_geo BASE TABLE 5 Place_Of_Srvc varchar 2
+stg_geo BASE TABLE 6 Tot_Rndrng_Prvdrs varchar 20
+stg_geo BASE TABLE 7 Tot_Benes varchar 20
+stg_geo BASE TABLE 8 Tot_Srvcs varchar 20
+stg_geo BASE TABLE 9 Avg_Mdcr_Alowd_Amt varchar 30
+stg_geo BASE TABLE 10 Avg_Mdcr_Pymt_Amt varchar 30
+stg_geo BASE TABLE 11 src_year int NULL
+stg_source_totals BASE TABLE 1 yr varchar 10
+stg_source_totals BASE TABLE 2 dataset varchar 30
+stg_source_totals BASE TABLE 3 hcpcs_cd varchar 10
+stg_source_totals BASE TABLE 4 source_rows varchar 20
+stg_source_totals BASE TABLE 5 source_srvcs varchar 40
+stg_az_provider_load VIEW 1 provider_sk varchar 20
+stg_az_provider_load VIEW 2 Rndrng_Prvdr_State_Abrvtn varchar 5
+stg_az_provider_load VIEW 3 Rndrng_Prvdr_Type varchar 100
+stg_az_provider_load VIEW 4 HCPCS_Cd varchar 10
+stg_az_provider_load VIEW 5 Place_Of_Srvc varchar 2
+stg_az_provider_load VIEW 6 Tot_Benes varchar 20
+stg_az_provider_load VIEW 7 Tot_Srvcs varchar 20
+stg_az_provider_load VIEW 8 Avg_Mdcr_Alowd_Amt varchar 30
+stg_az_provider_load VIEW 9 Avg_Mdcr_Pymt_Amt varchar 30
+stg_geo_load VIEW 1 Rndrng_Prvdr_Geo_Lvl varchar 20
+stg_geo_load VIEW 2 Rndrng_Prvdr_Geo_Cd varchar 10
+stg_geo_load VIEW 3 Rndrng_Prvdr_Geo_Desc varchar 60
+stg_geo_load VIEW 4 HCPCS_Cd varchar 10
+stg_geo_load VIEW 5 Place_Of_Srvc varchar 2
+stg_geo_load VIEW 6 Tot_Rndrng_Prvdrs varchar 20
+stg_geo_load VIEW 7 Tot_Benes varchar 20
+stg_geo_load VIEW 8 Tot_Srvcs varchar 20
+stg_geo_load VIEW 9 Avg_Mdcr_Alowd_Amt varchar 30
+stg_geo_load VIEW 10 Avg_Mdcr_Pymt_Amt varchar 30
+v_em_fact VIEW 1 yr int NULL
+v_em_fact VIEW 2 geo_level varchar 20
+v_em_fact VIEW 3 geo_desc varchar 60
+v_em_fact VIEW 4 hcpcs_cd varchar 10
+v_em_fact VIEW 5 pos varchar 2
+v_em_fact VIEW 6 patient_type varchar 12
+v_em_fact VIEW 7 em_level tinyint NULL
+v_em_fact VIEW 8 is_high_level bit NULL
+v_em_fact VIEW 9 coding_era varchar 14
+v_em_fact VIEW 10 tot_providers bigint NULL
+v_em_fact VIEW 11 tot_benes bigint NULL
+v_em_fact VIEW 12 tot_srvcs decimal NULL
+v_em_fact VIEW 13 avg_allowed decimal NULL
+v_em_fact VIEW 14 avg_payment decimal NULL
+v_em_fact VIEW 15 total_allowed decimal NULL
+v_em_fact VIEW 16 total_payment decimal NULL
+v_specialty_benchmark VIEW 1 yr int NULL
+v_specialty_benchmark VIEW 2 specialty varchar 100
+v_specialty_benchmark VIEW 3 patient_type varchar 12
+v_specialty_benchmark VIEW 4 hcpcs_cd varchar 10
+v_specialty_benchmark VIEW 5 em_level tinyint NULL
+v_specialty_benchmark VIEW 6 is_high_level bit NULL
+v_specialty_benchmark VIEW 7 srvcs decimal NULL
+v_specialty_benchmark VIEW 8 payment decimal NULL
+v_specialty_benchmark VIEW 9 patient_type_srvcs decimal NULL
+v_specialty_benchmark VIEW 10 pct_of_patient_type numeric NULL
+== 2. ROW COUNTS PER TABLE / VIEW ==
+object_name n
+----------- -
+stg_geo 8375
+stg_az_provider 76580
+stg_source_totals 98
+dim_em_code 9
+fact_geo 8375
+fact_az_provider 76580
+v_em_fact 8375
+v_specialty_benchmark 1043
+== 3. ROWS PER YEAR ==
+tbl yr n
+--- -- -
+fact_az_provider 2019 36620
+fact_az_provider 2024 39960
+fact_geo 2017 1043
+fact_geo 2018 1047
+fact_geo 2019 1048
+fact_geo 2020 1054
+fact_geo 2021 1048
+fact_geo 2022 1050
+fact_geo 2023 1044
+fact_geo 2024 1041
+== 4. HCPCS VALIDITY: DISTINCT codes in the facts (must be exactly the 9 codes) ==
+tbl hcpcs_cd n
+--- -------- -
+fact_az_provider 99202 1391
+fact_az_provider 99203 8437
+fact_az_provider 99204 10993
+fact_az_provider 99205 3679
+fact_az_provider 99211 1188
+fact_az_provider 99212 4416
+fact_az_provider 99213 18935
+fact_az_provider 99214 21034
+fact_az_provider 99215 6507
+fact_geo 99202 912
+fact_geo 99203 939
+fact_geo 99204 941
+fact_geo 99205 903
+fact_geo 99211 895
+fact_geo 99212 935
+fact_geo 99213 965
+fact_geo 99214 964
+fact_geo 99215 921
+distinct_codes_geo distinct_codes_az geo_rows_not_in_9 az_rows_not_in_9 rows_99201
+------------------ ----------------- ----------------- ---------------- ----------
+9 9 0 0 0

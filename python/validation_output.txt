@@ -1,0 +1,115 @@
+PASS 2017 geo rows csv = 1043 sql = 1043
+PASS 2017 geo services 99202 csv = 5442437.4 sql = 5442437.4
+PASS 2017 geo services 99203 csv = 22591883.2 sql = 22591883.2
+PASS 2017 geo services 99204 csv = 20349159.2 sql = 20349159.2
+PASS 2017 geo services 99205 csv = 5721621.2 sql = 5721621.2
+PASS 2017 geo services 99211 csv = 7701120.4 sql = 7701120.4
+PASS 2017 geo services 99212 csv = 25493444.0 sql = 25493444.0
+PASS 2017 geo services 99213 csv = 195054853.2 sql = 195054853.2
+PASS 2017 geo services 99214 csv = 204174927.0 sql = 204174927.0
+PASS 2017 geo services 99215 csv = 19960685.8 sql = 19960685.8
+PASS 2017 geo CSV and SQL contain exactly the 9 valid codes (99201 rows: 0)
+PASS 2018 geo rows csv = 1047 sql = 1047
+PASS 2018 geo services 99202 csv = 5133946.4 sql = 5133946.4
+PASS 2018 geo services 99203 csv = 22582909.0 sql = 22582909.0
+PASS 2018 geo services 99204 csv = 20785125.0 sql = 20785125.0
+PASS 2018 geo services 99205 csv = 5761103.0 sql = 5761103.0
+PASS 2018 geo services 99211 csv = 6452608.4 sql = 6452608.4
+PASS 2018 geo services 99212 csv = 23392914.2 sql = 23392914.2
+PASS 2018 geo services 99213 csv = 189505820.6 sql = 189505820.6
+PASS 2018 geo services 99214 csv = 208160371.4 sql = 208160371.4
+PASS 2018 geo services 99215 csv = 20410185.6 sql = 20410185.6
+PASS 2018 geo CSV and SQL contain exactly the 9 valid codes (99201 rows: 0)
+PASS 2019 geo rows csv = 1048 sql = 1048
+PASS 2019 geo services 99202 csv = 4968550.4 sql = 4968550.4
+PASS 2019 geo services 99203 csv = 22888452.4 sql = 22888452.4
+PASS 2019 geo services 99204 csv = 21373970.2 sql = 21373970.2
+PASS 2019 geo services 99205 csv = 5833843.0 sql = 5833843.0
+PASS 2019 geo services 99211 csv = 5371578.0 sql = 5371578.0
+PASS 2019 geo services 99212 csv = 21541340.6 sql = 21541340.6
+PASS 2019 geo services 99213 csv = 184813815.0 sql = 184813815.0
+PASS 2019 geo services 99214 csv = 213392941.0 sql = 213392941.0
+PASS 2019 geo services 99215 csv = 20798601.2 sql = 20798601.2
+PASS 2019 geo CSV and SQL contain exactly the 9 valid codes (99201 rows: 0)
+PASS 2020 geo rows csv = 1054 sql = 1054
+PASS 2020 geo services 99202 csv = 4386857.0 sql = 4386857.0
+PASS 2020 geo services 99203 csv = 18887938.4 sql = 18887938.4
+PASS 2020 geo services 99204 csv = 17428948.0 sql = 17428948.0
+PASS 2020 geo services 99205 csv = 4727786.6 sql = 4727786.6
+PASS 2020 geo services 99211 csv = 6584714.0 sql = 6584714.0
+PASS 2020 geo services 99212 csv = 17670551.0 sql = 17670551.0
+PASS 2020 geo services 99213 csv = 152121052.6 sql = 152121052.6
+PASS 2020 geo services 99214 csv = 177500624.6 sql = 177500624.6
+PASS 2020 geo services 99215 csv = 17372377.6 sql = 17372377.6
+PASS 2020 geo CSV and SQL contain exactly the 9 valid codes (99201 rows: 0)
+PASS 2021 geo rows csv = 1048 sql = 1048
+PASS 2021 geo services 99202 csv = 3367134.0 sql = 3367134.0
+PASS 2021 geo services 99203 csv = 20027597.0 sql = 20027597.0
+PASS 2021 geo services 99204 csv = 23865570.2 sql = 23865570.2
+PASS 2021 geo services 99205 csv = 5749381.0 sql = 5749381.0
+PASS 2021 geo services 99211 csv = 7303291.6 sql = 7303291.6
+PASS 2021 geo services 99212 csv = 18891639.8 sql = 18891639.8
+PASS 2021 geo services 99213 csv = 151643434.39999998 sql = 151643434.4
+PASS 2021 geo services 99214 csv = 195040647.79999998 sql = 195040647.8
+PASS 2021 geo services 99215 csv = 21793003.0 sql = 21793003.0
+PASS 2021 geo CSV and SQL contain exactly the 9 valid codes (99201 rows: 0)
+PASS 2022 geo rows csv = 1050 sql = 1050
+PASS 2022 geo services 99202 csv = 2623066.0 sql = 2623066.0
+PASS 2022 geo services 99203 csv = 19376740.2 sql = 19376740.2
+PASS 2022 geo services 99204 csv = 24604135.0 sql = 24604135.0
+PASS 2022 geo services 99205 csv = 5826949.0 sql = 5826949.0
+PASS 2022 geo services 99211 csv = 5716725.0 sql = 5716725.0
+PASS 2022 geo services 99212 csv = 16694904.0 sql = 16694904.0
+PASS 2022 geo services 99213 csv = 147345086.2 sql = 147345086.2
+PASS 2022 geo services 99214 csv = 196963343.4 sql = 196963343.4
+PASS 2022 geo services 99215 csv = 22657584.0 sql = 22657584.0
+PASS 2022 geo CSV and SQL contain exactly the 9 valid codes (99201 rows: 0)
+PASS 2023 geo rows csv = 1044 sql = 1044
+PASS 2023 geo services 99202 csv = 2004445.0 sql = 2004445.0
+PASS 2023 geo services 99203 csv = 18469288.0 sql = 18469288.0
+PASS 2023 geo services 99204 csv = 25019881.0 sql = 25019881.0
+PASS 2023 geo services 99205 csv = 5971900.2 sql = 5971900.2
+PASS 2023 geo services 99211 csv = 3105978.0 sql = 3105978.0
+PASS 2023 geo services 99212 csv = 14875155.0 sql = 14875155.0
+PASS 2023 geo services 99213 csv = 142923397.8 sql = 142923397.8
+PASS 2023 geo services 99214 csv = 201198692.39999998 sql = 201198692.4
+PASS 2023 geo services 99215 csv = 24286781.0 sql = 24286781.0
+PASS 2023 geo CSV and SQL contain exactly the 9 valid codes (99201 rows: 0)
+PASS 2024 geo rows csv = 1041 sql = 1041
+PASS 2024 geo services 99202 csv = 1665749.0 sql = 1665749.0
+PASS 2024 geo services 99203 csv = 17313113.0 sql = 17313113.0
+PASS 2024 geo services 99204 csv = 25327350.0 sql = 25327350.0
+PASS 2024 geo services 99205 csv = 6104713.0 sql = 6104713.0
+PASS 2024 geo services 99211 csv = 2604867.0 sql = 2604867.0
+PASS 2024 geo services 99212 csv = 13541101.2 sql = 13541101.2
+PASS 2024 geo services 99213 csv = 138566975.2 sql = 138566975.2
+PASS 2024 geo services 99214 csv = 207474533.2 sql = 207474533.2
+PASS 2024 geo services 99215 csv = 25844432.0 sql = 25844432.0
+PASS 2024 geo CSV and SQL contain exactly the 9 valid codes (99201 rows: 0)
+PASS 2019 az rows csv = 36620 sql = 36620
+PASS 2019 az services 99202 csv = 40519.0 sql = 40519.0
+PASS 2019 az services 99203 csv = 299834.0 sql = 299834.0
+PASS 2019 az services 99204 csv = 314676.0 sql = 314676.0
+PASS 2019 az services 99205 csv = 80772.0 sql = 80772.0
+PASS 2019 az services 99211 csv = 90215.0 sql = 90215.0
+PASS 2019 az services 99212 csv = 170544.0 sql = 170544.0
+PASS 2019 az services 99213 csv = 1750989.0 sql = 1750989.0
+PASS 2019 az services 99214 csv = 2728059.0 sql = 2728059.0
+PASS 2019 az services 99215 csv = 285658.0 sql = 285658.0
+PASS 2019 az CSV and SQL contain exactly the 9 valid codes
+PASS 2019 az file has no identity columns []
+PASS 2024 az rows csv = 39960 sql = 39960
+PASS 2024 az services 99202 csv = 13516.0 sql = 13516.0
+PASS 2024 az services 99203 csv = 239630.0 sql = 239630.0
+PASS 2024 az services 99204 csv = 358352.0 sql = 358352.0
+PASS 2024 az services 99205 csv = 78240.0 sql = 78240.0
+PASS 2024 az services 99211 csv = 46632.0 sql = 46632.0
+PASS 2024 az services 99212 csv = 146858.0 sql = 146858.0
+PASS 2024 az services 99213 csv = 1625327.0 sql = 1625327.0
+PASS 2024 az services 99214 csv = 2679338.0 sql = 2679338.0
+PASS 2024 az services 99215 csv = 335833.0 sql = 335833.0
+PASS 2024 az CSV and SQL contain exactly the 9 valid codes
+PASS 2024 az file has no identity columns []
+
+112 PASS / 0 FAIL of 112 checks
+OVERALL: PASS

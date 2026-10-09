@@ -1,0 +1,63 @@
+Changed database context to 'Coding_Intensity'.
+geo_desc yr est_visits pct_99212 pct_99213 pct_99214 pct_99215 est_high_pct new_high_pct
+-------- -- ---------- --------- --------- --------- --------- ------------ ------------
+National 2017 226192601.2 5.64 43.12 45.13 4.41 49.55 48.19
+National 2018 223960970.6 5.22 42.31 46.47 4.56 51.03 48.92
+National 2019 222959170.9 4.83 41.45 47.85 4.66 52.52 49.41
+National 2020 185624685.9 4.76 40.98 47.81 4.68 52.49 48.77
+National 2021 197336039.3 4.79 38.42 49.42 5.52 54.94 55.87
+National 2022 194688853.8 4.29 37.84 50.58 5.82 56.40 58.04
+National 2023 193195047.6 3.85 36.99 52.07 6.29 58.36 60.22
+National 2024 194015994.8 3.49 35.71 53.47 6.66 60.13 62.35
+Arizona 2017 4913112.0 4.31 36.40 50.37 5.96 56.33 52.70
+Arizona 2018 5042757.0 4.07 35.80 52.06 5.74 57.80 52.80
+Arizona 2019 5114340.0 3.69 34.68 53.73 5.91 59.65 53.52
+Arizona 2020 4564721.8 3.69 34.43 52.82 5.91 58.73 51.65
+Arizona 2021 4833399.0 4.33 34.71 51.13 6.30 57.43 57.21
+Arizona 2022 4792830.0 3.77 34.84 52.20 6.59 58.78 59.75
+Arizona 2023 4829748.0 3.53 34.10 53.95 7.18 61.13 61.56
+Arizona 2024 4937511.1 3.38 33.43 54.83 7.26 62.09 62.78
+specialty visits_2024 pct_2019 pct_2024 chg_2019_2024_pp
+--------- ----------- -------- -------- ----------------
+Psychiatry 33145.0 59.8 77.5 17.7
+Radiation Oncology 15019.0 48.4 63.6 15.1
+Geriatric Medicine 5287.0 69.5 83.9 14.5
+Ophthalmology 142132.0 42.1 55.5 13.3
+Pain Management 74592.0 65.3 77.9 12.6
+Neurosurgery 12533.0 45.7 57.7 12.0
+Optometry 117770.0 29.6 41.3 11.8
+Hand Surgery 15879.0 18.0 29.3 11.2
+Urology 124921.0 56.4 66.8 10.4
+Podiatry 148505.0 9.2 19.4 10.2
+Cardiology 307849.0 74.2 84.4 10.2
+Infectious Disease 7055.0 74.0 83.8 9.8
+Interventional Cardiology 135939.0 77.9 87.3 9.4
+Endocrinology 60356.0 81.0 90.1 9.1
+Otolaryngology 58836.0 30.7 38.1 7.3
+Clinical Cardiac Electrophysiology 39475.0 83.7 90.7 7.0
+Physical Medicine and Rehabilitation 37653.0 59.0 65.7 6.7
+Sports Medicine 7236.0 32.7 39.1 6.3
+Orthopedic Surgery 136960.0 36.5 42.6 6.1
+Critical Care (Intensivists) 8481.0 81.5 87.3 5.8
+Obstetrics & Gynecology 27060.0 49.4 55.2 5.8
+Family Practice 551100.0 66.1 71.4 5.3
+Interventional Pain Management 26109.0 78.3 83.1 4.8
+Rheumatology 59243.0 83.4 88.1 4.7
+Pulmonary Disease 84697.0 83.3 87.5 4.2
+Nurse Practitioner 770614.0 59.0 63.1 4.1
+Anesthesiology 27470.0 72.6 76.5 3.9
+General Surgery 28490.0 37.6 40.8 3.2
+Vascular Surgery 18560.0 50.8 54.0 3.2
+Neurology 99103.0 78.8 81.9 3.1
+Internal Medicine 490677.0 68.9 71.6 2.7
+Sleep Medicine 10952.0 92.9 93.7 .8
+Hematology-Oncology 113746.0 71.2 70.8 -.4
+Plastic and Reconstructive Surgery 8238.0 16.0 15.6 -.4
+Allergy/ Immunology 19091.0 53.6 53.1 -.4
+Emergency Medicine 8236.0 41.3 40.5 -.8
+Gastroenterology 45101.0 61.9 61.0 -.9
+General Practice 16124.0 70.6 69.2 -1.4
+Nephrology 81579.0 92.7 90.9 -1.8
+Medical Oncology 34190.0 68.3 66.1 -2.2
+Physician Assistant 503008.0 51.4 46.3 -5.1
+Dermatology 266379.0 23.5 18.3 -5.2

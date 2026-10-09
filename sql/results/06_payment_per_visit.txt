@@ -1,0 +1,47 @@
+Changed database context to 'Coding_Intensity'.
+hcpcs_cd nat_avg_pay_2019 nat_avg_pay_latest az_avg_pay_latest
+-------- ---------------- ------------------ -----------------
+99202 47.20 43.34 40.82
+99203 70.54 69.40 65.60
+99204 112.48 109.96 106.45
+99205 147.41 151.75 148.53
+99211 15.25 15.96 15.56
+99212 29.90 36.75 36.02
+99213 48.77 58.32 57.39
+99214 71.76 82.27 83.08
+99215 99.66 119.99 119.82
+yr geo_desc avg_pay_per_visit total_medicare_payment
+-- -------- ----------------- ----------------------
+2017 National 61.46 15565310734
+2018 National 62.34 15652187303
+2019 National 64.35 16118269995
+2020 National 63.70 13270383908
+2021 National 78.97 17676204021
+2022 National 76.99 17007809045
+2023 National 76.90 16834933648
+2024 National 77.04 16888109887
+2017 Arizona 64.25 363712220
+2018 Arizona 64.46 375068422
+2019 Arizona 66.62 393684876
+2020 Arizona 65.12 342038433
+2021 Arizona 78.50 439350851
+2022 Arizona 76.58 425412323
+2023 Arizona 77.05 430691759
+2024 Arizona 77.58 441422648
+specialty visits avg_pay_per_visit
+--------- ------ -----------------
+Nurse Practitioner 856648.0 66.34
+Family Practice 577481.0 77.58
+Physician Assistant 577191.0 62.57
+Internal Medicine 513161.0 80.14
+Cardiology 337909.0 88.97
+Dermatology 297012.0 64.38
+Podiatry 186983.0 67.40
+Orthopedic Surgery 181368.0 78.62
+Ophthalmology 173911.0 82.07
+Interventional Cardiology 150111.0 90.20
+Urology 147769.0 84.12
+Optometry 134892.0 72.63
+Hematology-Oncology 126210.0 88.68
+Neurology 123586.0 97.38
+Pulmonary Disease 99233.0 97.33
