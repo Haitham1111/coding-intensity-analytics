@@ -33,3 +33,4 @@ Arizona vs national. The 2021 office-visit overhaul.
 7. 2020 is a pandemic year (services fell about 17% vs 2019 nationally in the geography file). [Known: measured.]
 8. Population is Medicare fee-for-service beneficiaries; results do not generalize to all patients. [Known]
 9. Sample reconciliation: loaded rows and service totals tie exactly to the staged CSVs (`sql/results/08_reconciliation.txt`, `python/validation_output.txt`). The 2024 Arizona "source" totals were counted from the staged CSV (the raw 2024 file was not re-downloaded); the 2019 totals were counted from the raw file at pull time. [Known]
+10. **"Rank among 52 states" counts the District of Columbia and Puerto Rico as states.** The 52 are the 50 states plus DC and PR with 50,000+ established visits in the year (Guam also qualifies in 2023, giving 53). Guam, Virgin Islands, Northern Mariana Islands and non-state rows are otherwise excluded. [Known]

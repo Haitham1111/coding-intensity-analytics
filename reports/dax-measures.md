@@ -417,11 +417,11 @@ Every measure was run through DAX queries against the live model under filter co
 | T3 specialty Certified Clinical Nurse Specialist (226 visits in 2019, none at 99214/5) | `DimSpecialty[specialty] = "Certified Clinical Nurse Specialist"` | 2024 Share | 1 | Non-blank, correct |
 | T3 specialty Certified Clinical Nurse Specialist (226 visits in 2019, none at 99214/5) | `DimSpecialty[specialty] = "Certified Clinical Nurse Specialist"` | Change 2019-2024 (pts) | (BLANK) | BLANK, correct |
 | T3 specialty Certified Clinical Nurse Specialist (226 visits in 2019, none at 99214/5) | `DimSpecialty[specialty] = "Certified Clinical Nurse Specialist"` | Outlier Count Total | (BLANK) | BLANK, correct |
-| T4 specialty Geriatric Medicine (too small for outlier peer group) | `DimSpecialty[specialty] = "Geriatric Medicine"` | Change 2019-2024 (pts) | 14.4507 | Non-blank, correct |
-| T4 specialty Geriatric Medicine (too small for outlier peer group) | `DimSpecialty[specialty] = "Geriatric Medicine"` | Outlier Count High | 0 | Non-blank, correct |
-| T4 specialty Geriatric Medicine (too small for outlier peer group) | `DimSpecialty[specialty] = "Geriatric Medicine"` | Outlier Count Low | 0 | Non-blank, correct |
-| T4 specialty Geriatric Medicine (too small for outlier peer group) | `DimSpecialty[specialty] = "Geriatric Medicine"` | Outlier Count Total | 0 | Non-blank, correct |
-| T4 specialty Geriatric Medicine (too small for outlier peer group) | `DimSpecialty[specialty] = "Geriatric Medicine"` | Providers in Scope | 12 | Non-blank, correct |
+| T4 specialty Geriatric Medicine (peer group under 10 providers in 2019 only; 2024 has 10+) | `DimSpecialty[specialty] = "Geriatric Medicine"` | Change 2019-2024 (pts) | 14.4507 | Non-blank, correct |
+| T4 specialty Geriatric Medicine (peer group under 10 providers in 2019 only; 2024 has 10+) | `DimSpecialty[specialty] = "Geriatric Medicine"` | Outlier Count High | 0 | Non-blank, correct |
+| T4 specialty Geriatric Medicine (peer group under 10 providers in 2019 only; 2024 has 10+) | `DimSpecialty[specialty] = "Geriatric Medicine"` | Outlier Count Low | 0 | Non-blank, correct |
+| T4 specialty Geriatric Medicine (peer group under 10 providers in 2019 only; 2024 has 10+) | `DimSpecialty[specialty] = "Geriatric Medicine"` | Outlier Count Total | 0 | Non-blank, correct |
+| T4 specialty Geriatric Medicine (peer group under 10 providers in 2019 only; 2024 has 10+) | `DimSpecialty[specialty] = "Geriatric Medicine"` | Providers in Scope | 12 | Non-blank, correct |
 | T5 specialty Psychiatry (control) | `DimSpecialty[specialty] = "Psychiatry"` | 2019 Share | 0.5982 | Non-blank, correct |
 | T5 specialty Psychiatry (control) | `DimSpecialty[specialty] = "Psychiatry"` | 2024 Share | 0.7754 | Non-blank, correct |
 | T5 specialty Psychiatry (control) | `DimSpecialty[specialty] = "Psychiatry"` | Change 2019-2024 (pts) | 17.7158 | Non-blank, correct |
