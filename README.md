@@ -16,7 +16,7 @@ Medicare pays more for higher office-visit levels. Payers, compliance teams and 
 
 Smaller results, less exciting:
 - Arizona specialty movers, established visits, 2019 to 2024 (AZ provider file only; specialties with 5,000+ established visits in both years): Psychiatry +17.7 points (59.8% to 77.5%), Radiation Oncology +15.1, Geriatric Medicine +14.5. Down: Dermatology -5.2 (23.5% to 18.3%) and Physician Assistant -5.1.
-- Medicare payment per visit (service-weighted, office and facility together) went from $63.70 (2020) to $78.97 (2021) nationally, then roughly flat ($77.04 in 2024). The 2021 jump is mostly price: national average payment for 99214 went from $70.89 to $87.21. That this reflects the 2021 fee schedule changes is my interpretation, not something the data shows.
+- Medicare payment per visit (service-weighted, office and facility together) went from $63.70 (2020) to $78.97 (2021) nationally, then roughly flat ($77.04 in 2024). The jump coincides with the 2021 fee schedule changes; that link is my interpretation, not something the data shows.
 - Provider-level outliers (peer z-score beyond +/-2, Arizona, specialties with 10+ providers): 67 high and 218 low of 7,990 providers in 2019; 71 high and 212 low of 8,766 in 2024. These are counts only. They are variance, not evidence of anything.
 
 ## 2. Data Architecture & Relational Schema
@@ -32,8 +32,6 @@ CMS CSV (geography 2017-2024; Arizona provider 2019, 2024)
   -> Power BI: FactEM, FactSpecialty, FactOutlier, DimEM, DimYear, DimSpecialty,
                _Measures (32 DAX measures)
 ```
-
-CMS Medicare Physician & Other Practitioners public use files (data.cms.gov). Details and URLs in [`data/README.md`](data/README.md). No data files are in this repo.
 
 | Dataset | Coverage |
 |---|---|
